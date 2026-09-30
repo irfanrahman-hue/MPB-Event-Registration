@@ -210,7 +210,7 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
               </span>
             </div>
             <p className="text-xs text-[#3b82f6] mt-0.5">
-              Registration is open for Bazar Seloka 2025. Powered by Group Human Resources. Standard allocation: 1 Table and 2 complimentary chairs (up to 6 upon request, free of charge).
+              Registration is open for Bazar Seloka. Powered by Group Human Resources. Standard allocation: 1 Table and 2 complimentary chairs (up to 6 upon request, free of charge).
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
 
             <div className="space-y-1">
               <h3 className="text-lg font-bold text-[#0f172a] font-display">
-                Bazar Seloka 2025
+                Bazar Seloka
               </h3>
               <p className="text-xs text-[#64748b]">
                 Media Prima vendor bazaar & entrepreneurial showcase • Powered by Group Human Resources.
@@ -239,21 +239,13 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
             </div>
 
             <div className="space-y-3 pt-2 text-xs text-[#334155]">
-              <div className="flex items-center gap-2.5">
-                <MapPin className="w-4 h-4 text-[#d61b22] shrink-0" />
-                <span>Balai Berita Grounds, 31 Jalan Riong, Bangsar</span>
+              <div className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-[#d61b22] shrink-0 mt-0.5" />
+                <span className="leading-relaxed">Balai Berita, Anjung Riong, 31, Jalan Riong, Bangsar, 59100 Kuala Lumpur, Malaysia</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-[#d61b22] shrink-0" />
-                <span>09:00 AM – 06:00 PM (Ingress: 07:30 AM)</span>
-              </div>
-              <div className="flex items-center gap-2.5">
-                <Calendar className="w-4 h-4 text-[#d61b22] shrink-0" />
-                <span>Monthly Carnival Cycles (May – Dec 2025)</span>
-              </div>
-              <div className="flex items-center gap-2.5">
-                <Users className="w-4 h-4 text-[#d61b22] shrink-0" />
-                <span>Target Audience: Est. 1,800+ MPB Staff & Attendees</span>
+                <span>10.00 am - 3.00 pm</span>
               </div>
             </div>
 
@@ -267,23 +259,6 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
               </p>
             </div>
           </div>
-
-          {/* Card 2: Fast Approval Rate */}
-          <div className="bg-white rounded-xl border border-[#e2e8f0] p-5 shadow-2xs space-y-3">
-            <div className="flex items-center justify-between text-sm">
-              <span className="font-semibold text-[#0f172a]">Fast Approval Rate</span>
-              <span className="font-bold text-[#d61b22] font-mono">94.8%</span>
-            </div>
-            <div className="w-full bg-[#f1f5f9] h-2 rounded-full overflow-hidden">
-              <div
-                className="bg-[#d61b22] h-full rounded-full transition-all duration-700"
-                style={{ width: '94.8%' }}
-              ></div>
-            </div>
-            <p className="text-[11.5px] text-[#64748b]">
-              Based on MPB Carnival 2024 records • Immediate digital ingress pass upon approval
-            </p>
-          </div>
         </div>
 
         {/* Right Column: Multi-Step Vendor Registration Form (8 cols) */}
@@ -293,7 +268,7 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
             <div className="flex flex-wrap items-center justify-between gap-2 pb-2">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold text-[#b91c1c] uppercase tracking-wide">
                 <Flag className="w-3.5 h-3.5 text-[#d61b22]" />
-                <span>Bazar Seloka 2025 • Media Prima Berhad</span>
+                <span>Bazar Seloka • Media Prima Berhad</span>
               </div>
               <span className="text-[11px] font-mono font-medium text-[#64748b] bg-[#f8fafc] px-2 py-0.5 rounded border border-[#e2e8f0]">
                 Module Code: F01 • Step {currentStep} of 3
@@ -306,7 +281,7 @@ export const VendorRegistrationForm: React.FC<VendorRegistrationFormProps> = ({
                 Bazar Seloka Vendor Registration
               </h1>
               <p className="text-[13.5px] text-[#475569] leading-relaxed">
-                Please complete your business details below to participate in Bazar Seloka 2025. Powered by Group Human Resources.
+                Please complete your business details below to participate in Bazar Seloka. Powered by Group Human Resources.
               </p>
             </div>
 

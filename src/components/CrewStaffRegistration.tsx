@@ -63,7 +63,7 @@ export const CrewStaffRegistration: React.FC<CrewStaffRegistrationProps> = ({
       email: email.trim().toLowerCase(),
       phone: phone.trim(),
       vendorCategory: 'Kelab Media Prima Berhad',
-      preferredMonth: 'Bazar Seloka 2025 (Official Event Crew)',
+      preferredMonth: 'Bazar Seloka (Official Event Crew)',
       salesItemType: 'Services & Lifestyle',
       tableCount: 0,
       chairQuantity,
@@ -121,7 +121,7 @@ export const CrewStaffRegistration: React.FC<CrewStaffRegistrationProps> = ({
             Staff & Crew Registration Form
           </h1>
           <p className="text-xs sm:text-[13px] text-[#64748b] mt-1">
-            Register your participation as official event crew or duty staff for the Media Prima HR Carnival 2025.
+            Register your participation as official event crew or duty staff for Bazar Seloka • Media Prima Berhad.
           </p>
         </div>
 
