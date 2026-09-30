@@ -1,0 +1,6 @@
+{
+  "name": "Media Prima HR Vendor Portal",
+  "description": "Official vendor registration, approval center, and simulated email notification outbox for Media Prima Berhad HR Carnivals and Events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
